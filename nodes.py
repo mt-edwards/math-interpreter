@@ -14,7 +14,7 @@ class AddNode:
     node_b: Any
 
     def __repr__(self):
-        return f"({self.node_a}+{self.node_b})"
+        return f"({self.node_a} + {self.node_b})"
 
 @dataclass
 class SubtractNode:
@@ -22,7 +22,7 @@ class SubtractNode:
     node_b: Any
 
     def __repr__(self):
-        return f"({self.node_a}-{self.node_b})"
+        return f"({self.node_a} - {self.node_b})"
 
 @dataclass
 class MultiplyNode:
@@ -30,7 +30,7 @@ class MultiplyNode:
     node_b: Any
 
     def __repr__(self):
-        return f"({self.node_a}*{self.node_b})"
+        return f"({self.node_a} * {self.node_b})"
 
 @dataclass
 class DivideNode:
@@ -38,7 +38,7 @@ class DivideNode:
     node_b: Any
 
     def __repr__(self):
-        return f"({self.node_a}/{self.node_b})"
+        return f"({self.node_a} / {self.node_b})"
 
 @dataclass
 class PlusNode:
